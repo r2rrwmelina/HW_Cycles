@@ -1,4 +1,5 @@
 package ru.netology.javaqa.HW_Cycles.services;
+
 public class VacationCounterService {
 
     public int calculate(int income, int expenses, int restThreshold) { // доход, траты, кол-во накоплений для отпуска
