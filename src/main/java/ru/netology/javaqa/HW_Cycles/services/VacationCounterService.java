@@ -8,7 +8,7 @@ public class VacationCounterService {
         for (int month = 0; month < 12; month++) {
             if (threshold >= restThreshold) { // отдыхаем
                 count++;
-                threshold = (threshold / 3) - expenses;
+                threshold = (threshold - expenses) / 3;
             } else {
                 threshold = threshold + income - expenses; // работаем
             }
